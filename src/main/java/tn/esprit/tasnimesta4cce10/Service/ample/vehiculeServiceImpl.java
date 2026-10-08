@@ -10,7 +10,7 @@ import tn.esprit.tasnimesta4cce10.repository.IvehiculeRepository;
 
 import java.util.List;
 @RequiredArgsConstructor
-@AllArgsConstructor
+
 @Service
 
 public class vehiculeServiceImpl implements IvehiculeServices {
