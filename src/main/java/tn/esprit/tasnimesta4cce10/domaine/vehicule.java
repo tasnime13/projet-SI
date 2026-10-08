@@ -13,8 +13,11 @@ import java.util.Set;
 @Getter @Setter
 @NoArgsConstructor @AllArgsConstructor
 @Builder
+
 public class vehicule {
 
+
+    public vehicule orElseThrow;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVehicule;
