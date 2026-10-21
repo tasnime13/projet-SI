@@ -27,7 +27,7 @@ public class Reservation {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "vehicule_id")
-    private vehicule vehicule;
+    private Vehicule vehicule;
     @OneToOne(mappedBy = "reservation", fetch = FetchType.LAZY)
     @ToString.Exclude
     private Contrat contrat;

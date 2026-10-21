@@ -21,5 +21,5 @@ public class Maintenance {
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.PERSIST)
     @JoinColumn(name = "vehicule_id")
-    private vehicule vehicule;
+    private Vehicule vehicule;
 }

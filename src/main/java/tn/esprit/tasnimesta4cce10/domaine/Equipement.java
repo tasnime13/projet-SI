@@ -20,5 +20,5 @@ public class Equipement {
     @ManyToMany(mappedBy = "equipements", fetch = FetchType.LAZY)
     @ToString.Exclude
     @Builder.Default
-    private Set<vehicule> vehicules = new HashSet<>();
+    private Set<Vehicule> vehicules = new HashSet<>();
 }

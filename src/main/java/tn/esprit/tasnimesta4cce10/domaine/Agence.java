@@ -24,7 +24,7 @@ public class Agence {
     @OneToMany(mappedBy = "agence", fetch = FetchType.LAZY)
     @ToString.Exclude
     @Builder.Default
-    private List<vehicule> vehicules = new ArrayList<>();
+    private List<Vehicule> vehicules = new ArrayList<>();
 
     @OneToMany(mappedBy = "agence", fetch = FetchType.LAZY)
     @ToString.Exclude

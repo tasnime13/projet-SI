@@ -14,10 +14,10 @@ import java.util.Set;
 @NoArgsConstructor @AllArgsConstructor
 @Builder
 
-public class vehicule {
+public class Vehicule {
 
 
-    public vehicule orElseThrow;
+    public Vehicule orElseThrow;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVehicule;
