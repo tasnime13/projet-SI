@@ -17,7 +17,6 @@ import java.util.Set;
 public class Vehicule {
 
 
-    public Vehicule orElseThrow;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idVehicule;

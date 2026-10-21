@@ -2,6 +2,9 @@ package tn.esprit.tasnimesta4cce10.Service.Imple;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import tn.esprit.tasnimesta4cce10.domaine.Maintenance;
+import tn.esprit.tasnimesta4cce10.exception.ResourceNotFoundException;
+import tn.esprit.tasnimesta4cce10.repository.IMaintenanceRepository;
 
 import java.util.List;
 

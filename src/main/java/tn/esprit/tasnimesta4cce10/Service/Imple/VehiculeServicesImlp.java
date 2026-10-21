@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import tn.esprit.tasnimesta4cce10.Service.IVehiculeService;
 import tn.esprit.tasnimesta4cce10.domaine.Vehicule;
+import tn.esprit.tasnimesta4cce10.exception.ResourceNotFoundException;
 import tn.esprit.tasnimesta4cce10.repository.IVehiculeRepository;
 
 import java.util.List;
