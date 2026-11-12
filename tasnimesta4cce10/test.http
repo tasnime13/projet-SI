@@ -1,0 +1,15 @@
+### Lister les véhicules
+GET http://localhost:8081/api/vehicules
+
+### Créer un véhicule
+POST http://localhost:8081/api/vehicules
+Content-Type: application/json
+
+{
+  "immatriculation": "123 TUN 4567",
+  "marque": "Renault",
+  "modele": "Clio",
+  "categorie": "CITADINE",
+  "tarifJournalier": 80.00,
+  "statut": "DISPONIBLE"
+}
